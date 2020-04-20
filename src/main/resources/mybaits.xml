@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org.//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!-- mybatis 的 主配置文件-->
+<configuration>
+
+    <!--指定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件-->
+    <mappers>
+        <!--使用xml进行查询-->
+<!--        <mapper resource="resources/ProductMapper.xml"/>-->
+        <!--使用注解-->
+        <package name="com.luoye_ssm.dao"/>
+    </mappers>
+
+</configuration>
